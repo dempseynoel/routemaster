@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="routemaster.gif" width="100%" align="centre">
+  <img src="routemasterIntro.gif" width="100%" align="centre">
 </p>
 # Routemaster
 
