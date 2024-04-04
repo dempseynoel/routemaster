@@ -1,0 +1,4 @@
+camera_id,latitude,longitude,camera_url,camera_name,camera_image_url
+JamCams_00001.02500,51.5107,-0.11512,https://api.tfl.gov.uk/Place/JamCams_00001.02500,Victoria Embkmt/Temple Place,https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00001.02500.jpg
+JamCams_00001.06503,51.5054,-0.14559,https://api.tfl.gov.uk/Place/JamCams_00001.06503,Piccadilly/Whitehorse St,https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00001.06503.jpg
+JamCams_00001.04502,51.5009,-0.11762,https://api.tfl.gov.uk/Place/JamCams_00001.04502,Westminster Bridge/York Rd,https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00001.04502.jpg

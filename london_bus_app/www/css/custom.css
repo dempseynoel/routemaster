@@ -1,0 +1,188 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Hanlding Updates
+-----------------------------------------------------------------*/
+.portfolio .portfolio-box .portfolio-img img {
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    height: 100%;
+    width: 100%;
+}
+
+/* ------------------------------------------------------------------- 
+ * ## about stats
+ * ------------------------------------------------------------------- */
+.about-stats {
+    text-align: center;
+}
+
+.stats__col {
+    margin: 5.4rem 0;
+    padding: 0 2rem;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.stats__col:last-child {
+    border-right: none;
+}
+
+.stats__count {
+    font-family: "montserrat-bold", sans-serif;
+    font-size: 8.4rem;
+    line-height: 1;
+    color: #FFFFFF;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.stats h5 {
+    font-family: "montserrat-semibold", sans-serif;
+    margin-top: 1.8rem;
+    color: #000000;
+    font-size: 1.8rem;
+    line-height: 1.333;
+    position: relative;
+}
+
+.about__line {
+    display: block;
+    width: 2px;
+    height: 10.2rem;
+    background-color: #FFFFFF;
+    position: absolute;
+    right: 7.2rem;
+    top: 0;
+}
+
+
+/* ------------------------------------------------------------------- 
+ * responsive:
+ * about
+ * ------------------------------------------------------------------- */
+@media only screen and (max-width: 1200px) {
+    .about-desc {
+        font-size: 2.2rem;
+        max-width: 940px;
+    }
+    .about-stats {
+        padding-top: 3rem;
+        padding-bottom: 3.9rem;
+    }
+    .about-stats {
+        max-width: 800px;
+    }
+    .stats__col {
+        margin: 1.5rem 0;
+    }
+    .stats__col:nth-child(n) {
+        border: none;
+    }
+    .stats__col:nth-child(2n+1) {
+        border-right: 1px solid rgba(255, 255, 255, 0.25);
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .about-desc {
+        font-size: 2rem;
+        max-width: 600px;
+    }
+    .stats__count {
+        font-size: 8rem;
+    }
+    .stats h5 {
+        margin-top: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .about__line {
+        right: 5.5rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .s-about {
+        padding-top: 12rem;
+    }
+    .about-desc {
+        font-size: 1.9rem;
+    }
+    .about-stats {
+        padding-top: 0;
+    }
+    .stats__col {
+        margin: 0;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        position: relative;
+    }
+    .stats__col::after {
+        content: "";
+        display: block;
+        height: 1px;
+        width: 250px;
+        background-color: rgba(255, 255, 255, 0.25);
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        margin-left: -125px;
+    }
+    .stats__col:last-child::after {
+        display: none;
+    }
+    .stats__col:nth-child(n) {
+        border: none;
+    }
+    .about__line {
+        height: 7.2rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .about-desc {
+        font-size: 1.8rem;
+    }
+    .stats__count {
+        font-size: 7.8rem;
+    }
+}
+
+
+.btn-primary {
+    background-color: #ffffff;
+    border-color: #ffc107;
+    color: #ffc107;
+}
+
+  
+  .btn-primary:hover {
+    background-color: #ffffff;
+    border-color: #ffc107;
+    color: #ffc107;
+  }
+  
+  .btn-primary:active {
+    background-color: #ffffff;
+    border-color: #ffc107;
+    color: #ffc107;
+  }
+  
+  .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active {
+    background-color: #ffffff;
+    border-color: #ffc107;
+    color: #ffc107;
+  }
+  
+  .btn-primary.focus, .btn-primary:focus {
+    background-color: #ffffff;
+    border-color: #ffc107;
+    color: #ffc107;
+  }

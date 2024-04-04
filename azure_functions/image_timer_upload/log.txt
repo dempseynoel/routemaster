@@ -1,0 +1,19 @@
+
+INFO [2024-03-10 14:09:37] Running on port 50847
+INFO [2024-03-10 14:09:37] Start handler
+INFO [2024-03-10 14:10:05] recieving on image_timer_upload_trigger
+INFO [2024-03-10 14:10:11] Image uploaded
+INFO [2024-03-10 14:59:23] Running on port 52541
+INFO [2024-03-10 14:59:23] Start handler
+INFO [2024-03-10 14:59:33] recieving on image_timer_upload_trigger
+INFO [2024-03-10 14:59:38] Image uploaded
+INFO [2024-03-10 15:06:01] Running on port 53036
+INFO [2024-03-10 15:06:01] Start handler
+INFO [2024-03-10 15:06:11] recieving on image_timer_upload_trigger
+INFO [2024-03-10 15:06:16] Image uploaded
+INFO [2024-03-14 13:55:04] Running on port 57650
+INFO [2024-03-14 13:55:04] Start handler
+INFO [2024-03-14 13:55:19] recieving on image_timer_upload_trigger
+INFO [2024-03-14 13:55:27] Image uploaded
+INFO [2024-03-17 13:21:09] Running on port 55509
+INFO [2024-03-17 13:21:09] Start handler
