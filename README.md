@@ -84,7 +84,7 @@ Create a text file called <code>docker-compose.yaml</code> in your directory and
 
 Next we will push everything to Azure by going through each step in the example <code>shell</code> script below. Within this script we are going to define some variables, create a new resource group to hold everything to do with the running of our Azure function, create a container registry to hold our Docker container, create the storage account that the timer trigger needs to run, create a new function app to run our container application, an app service plan for us to bill against, connect the storage account to the function app, and add our secrets to the environment.
 
-nce everything is complete, you should be able to go to your Azure account and see all the new resources created as well as whether they are running. For specific details on the resources created refer to Microsoft documentation. 
+Once everything is complete, you should be able to go to your Azure account and see all the new resources created as well as whether they are running. For specific details on the resources created refer to Microsoft documentation. 
 
 ![alt text](https://github.com/dempseynoel/routemaster/blob/main/london_bus_app/www/images/blog/shell.png)
 
