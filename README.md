@@ -1,6 +1,7 @@
 <p align="center">
   <img src="routemasterIntro.gif" width="100%" align="centre">
 </p>
+
 # Routemaster
 
 Routemaster is a simple bus prediction model built in R & Azure designed to detect the presence of London Buses within TFL’s JamCams API feed. It utilises serverless Azure custom handler functions to run R code on a schedule, an Azure custom vision object detection model and R Shiny for the frontend. <b>You can view Routemaster [here](https://routemastershinyapp.azurewebsites.net/).</b>
