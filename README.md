@@ -2,6 +2,8 @@
   <img src="routemasterIntro.gif" width="100%" align="centre">
 </p>
 
+### Awarded Honourable Mention in Posit's Shiny Competition 2024: https://posit.co/blog/winners-of-the-2024-shiny-contest/
+
 ### NOTICE:
 Due to an on-going cyber security incident at TFL have decided to restrict access to a variety of TFL endpoints, including the JamCam API. Because of this, there are no new images from the cameras to feed to the model and so the app is just showing the detections it made last, i.e. on 2 September 2024. More information on TFL's incident can be found here: [TfL provides update on ongoing cyber security incident - Transport for London](https://tfl.gov.uk/info-for/media/press-releases/2024/september/tfl-provides-update-on-ongoing-cyber-security-incident)
 
