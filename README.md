@@ -7,9 +7,11 @@
 ### NOTICE:
 Due to an on-going cyber security incident at TFL have decided to restrict access to a variety of TFL endpoints, including the JamCam API. Because of this, there are no new images from the cameras to feed to the model and so the app is just showing the detections it made last, i.e. on 2 September 2024. More information on TFL's incident can be found here: [TfL provides update on ongoing cyber security incident - Transport for London](https://tfl.gov.uk/info-for/media/press-releases/2024/september/tfl-provides-update-on-ongoing-cyber-security-incident)
 
+Update: 23 January 2025 - the TFL cameras are still offline. As a result, I've decided to turn off Routemaster to save on costs. Links to the Routemaster website will no longer work.
+
 # Routemaster
 
-Routemaster is a simple bus prediction model built in R & Azure designed to detect the presence of London Buses within TFL’s JamCams API feed. It utilises serverless Azure custom handler functions to run R code on a schedule, an Azure custom vision object detection model and R Shiny for the frontend. <b>You can view Routemaster [here](https://routemastershinyapp.azurewebsites.net/).</b>
+Routemaster is a simple bus prediction model built in R & Azure designed to detect the presence of London Buses within TFL’s JamCams API feed. It utilises serverless Azure custom handler functions to run R code on a schedule, an Azure custom vision object detection model and R Shiny for the frontend.
 
 In short, the creation of Routemaster can be broken down into four core steps: scheduling the capture and storage of images from TFL’s API; training an object detection model; scheduling the submission of images for prediction and storing results; using the prediction results in a frontend application.
 
